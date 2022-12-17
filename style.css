@@ -1,0 +1,78 @@
+section {
+    background-color: rgba(211, 211, 211, 0.04);
+    padding: 40px;
+    height: 98vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.container button {
+    padding: 9px 30px;
+    border-radius: 8px;
+    background-color: deepskyblue;
+    color: white;
+    border: deepskyblue;
+}
+input {
+    height: 30px;
+    border-radius: 8px;
+}
+.side {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.5) 0 2px 8px 0;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.leftSide {
+    height: 100%;
+    padding: 20px;
+}
+
+.rightSide {
+    height: 100%;
+    padding: 20px;
+}
+
+.operate {
+    width: 8%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.operate button {
+    border-radius: 50%;
+    background-color: deepskyblue;
+    color: white;
+    border:none;
+    box-sizing: border-box;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.operate button.disable {
+    background-color: lightgray;
+}
+
+.job {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.bi {
+    margin-right:10px ;
+}
